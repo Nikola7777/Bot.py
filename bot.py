@@ -15,5 +15,5 @@ async def on_ready():
     print ("I am running on " + bot.user.name)
     print ("With the ID: " + bot.user.id)
     
-    bot.run(os.environ['BOT_TOKEN'])
+    bot.run(os.environ['TOKEN'])
     
